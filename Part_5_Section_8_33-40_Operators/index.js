@@ -4,6 +4,7 @@
 ! && || - logical
 = - assignment
 
+
 += - addition assignment
 -= - subtraction assignment
 *= - multiplication assignment
@@ -23,3 +24,12 @@ delete obj.a - removes the property a from the object obj
 typeof a - returns the type of a variable
 new Object() - creates a new object
 */
+
+console.log(Boolean(0));
+console.log(Boolean(1));
+console.log(Boolean("Hello"));
+console.log(Boolean(""));
+console.log(Boolean(null));
+console.log(Boolean(undefined));
+console.log(Boolean({}));
+console.log(Boolean([]));
